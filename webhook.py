@@ -6,12 +6,12 @@ client_id = '823593956461903873'
 RPC = Presence(client_id)
 RPC.connect()
 
-webhook_adress = input('Podaj adres webhooka: ')
+webhook_adress = input('Enter the webhook address: ')
 
 def webhook_send():
-	RPC.update(state="używając WebClient", details="Piszę na webhooku", large_image="images", large_text="Piszę na webhooku", start=time.time())
+	RPC.update(state="using WebClient", details="Writing in webhook", large_image="images", large_text="Writing in webhook", start=time.time())
 
-	webhook_message = input('Napisz na webhooku: ')
+	webhook_message = input('Write a message on the webhook: ')
 	webhook = DiscordWebhook(url=webhook_adress, content=webhook_message)
 	response = webhook.execute()
 	webhook_send()
