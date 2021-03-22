@@ -5,3 +5,7 @@ A simple console client for webhooks.
 Download/clone this repo. Open console in folder location. Write `pip install discord_webhook pypresence`
 
 Now, after installing, write `python webhook.py`. You can write with webhook!
+
+# Screenshots
+![xd](xd.png?raw=true)
+![nom](nom.png?raw=true)
