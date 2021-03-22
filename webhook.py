@@ -8,7 +8,7 @@ RPC.connect()
 
 webhook_adress = input('Podaj adres webhooka: ')
 
-def webhook_login():
+def webhook_send():
 	RPC.update(state="używając WebClient", details="Piszę na webhooku", large_image="images", large_text="Piszę na webhooku", start=time.time())
 
 	webhook_message = input('Napisz na webhooku: ')
