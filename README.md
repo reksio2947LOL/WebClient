@@ -1,4 +1,4 @@
-![!pypresence](https://img.shields.io/badge/using-pypresence-00bb88.svg?style=for-the-badge&logo=discord&logoWidth=20)] ![discord_webhook](https://img.shields.io/badge/using-discord_webhook-00bb88.svg?style=for-the-badge&logo=discord&logoWidth=20)
+![pypresence](https://img.shields.io/badge/using-pypresence-00bb88.svg?style=for-the-badge&logo=discord&logoWidth=20) ![discord_webhook](https://img.shields.io/badge/using-discord_webhook-00bb88.svg?style=for-the-badge&logo=discord&logoWidth=20)
 # WebClient
 A simple console client for webhooks.
 # How to install?
